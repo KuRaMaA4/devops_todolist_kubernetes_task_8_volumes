@@ -67,7 +67,7 @@ kubectl exec -n todoapp deploy/todoapp -- ls -l /app/configs
 kubectl exec -n todoapp deploy/todoapp -- cat /app/configs/PYTHONUNBUFFERED
 ```
 
-Expected: a file `PYTHONUNBUFFERED` with the content `1`, the same as in `.infrastructure/confgiMap.yml`.
+Expected: a file `PYTHONUNBUFFERED` with the content `1`, the same as in `.infrastructure/configMap.yml`.
 
 ## 5. Validate that Secret data is mounted as a file
 
